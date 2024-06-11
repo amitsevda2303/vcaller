@@ -59,7 +59,7 @@ function App() {
         <video ref={currentUserVideoRef} autoPlay playsInline muted />
       </div>
       <div>
-        <video ref={remoteVideoRef} autoPlay playsInline />
+        <video style={{width: "500px", height: "500px"}} ref={remoteVideoRef} autoPlay playsInline />
       </div>
     </div>
   );
